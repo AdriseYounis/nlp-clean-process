@@ -4,6 +4,22 @@ This project demonstrates how to clean and process text for Natural Language Pro
 
 ## Key Differences Between Stemming and Lemmatization
 
+### Tokenization
+
+**What is it?**  
+Tokenization is the process of splitting text into smaller units, such as words, sentences, or subword tokens. It's a fundamental step in most NLP pipelines.
+
+**Types of Tokenization:**
+
+1. Word Tokenization: Splits text into individual words.
+2. Sentence Tokenization: Splits text into sentences.
+3. Subword Tokenization (Byte Pair Encoding, WordPiece): Splits words into smaller meaningful subword units, especially useful for languages with a large vocabulary or in dealing with rare words.
+
+### Removing Stopwords
+
+**What is it?**  
+Stopwords are common words (e.g., "the", "is", "in") that usually don't carry much meaning for NLP tasks. Removing them can help improve model efficiency and focus on meaningful words.
+
 ### Stemming
 
 **What is it?**  
