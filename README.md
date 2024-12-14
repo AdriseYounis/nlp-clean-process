@@ -91,6 +91,12 @@ POS tags provide essential context for NLP tasks. They allow algorithms to:
 
 ## Running the Script
 
+To execute the script, run the following command in your terminal:
+
+```bash
+python3 src/text_preprocessing.py   
+```
+
 ### Python Environment Trusts SSL Certificates
 
 If you're encountering SSL certificate errors while running the script, you can fix this by running the following command to ensure that your Python environment trusts SSL certificates:
